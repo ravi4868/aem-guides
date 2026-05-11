@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.adobe.aem.cara.apps.core.filters.UniversitiesApiConfig">
+  <OCD id="com.adobe.aem.cara.apps.core.filters.UniversitiesApiConfig" name="Universities API Config" description="Configuration for Hipolabs Universities API">
+    <AD id="apiUrl" type="String" name="API URL" description="Base URL of the Universities API" default="http://universities.hipolabs.com/search?country="/>
+  </OCD>
+  <Designate pid="com.adobe.aem.cara.apps.core.filters.UniversitiesService">
+    <Object ocdref="com.adobe.aem.cara.apps.core.filters.UniversitiesApiConfig"/>
+  </Designate>
+</metatype:MetaData>

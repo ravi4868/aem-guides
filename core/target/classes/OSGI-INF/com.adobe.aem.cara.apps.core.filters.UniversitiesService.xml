@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.adobe.aem.cara.apps.core.filters.UniversitiesService" immediate="true" activate="activate" modified="activate">
+  <property name="apiUrl" type="String" value="http://universities.hipolabs.com/search?country="/>
+  <service>
+    <provide interface="com.adobe.aem.cara.apps.core.filters.UniversitiesService"/>
+  </service>
+  <implementation class="com.adobe.aem.cara.apps.core.filters.UniversitiesService"/>
+</scr:component>
