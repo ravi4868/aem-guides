@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>Cara Project - All</comment>
+<entry key="allowIndexDefinitions">true</entry>
+<entry key="name">aem-guides-cara.all</entry>
+<entry key="created">2026-03-16T11:40:41.137Z</entry>
+<entry key="groupId">com.adobe.aem.cara</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.adobe.aem.cara</entry>
+<entry key="description">All content package for Cara Project</entry>
+<entry key="artifactId">aem-guides-cara.all</entry>
+</properties>
