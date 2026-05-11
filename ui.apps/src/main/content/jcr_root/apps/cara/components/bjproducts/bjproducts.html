@@ -1,0 +1,17 @@
+<div data-sly-use.clientlib="/libs/granite/sightly/templates/clientlib.html"
+     data-sly-call="${clientlib.css @ categories='core.wcm.components.bjproducts'}">
+</div>
+
+<div>
+  <sly data-sly-use.universitiesModel="com.adobe.aem.cara.apps.core.models.UniversitiesModel" />
+    <div>
+        <h3>Universities in ${properties.country}</h3>
+        <ul class="${properties['cq:styleClasses']}">
+            <li data-sly-list="${universitiesModel.universityNames}"
+                class="${itemList.even ? 'even-item' : 'odd-item'}">
+                ${itemList.count}. ${item}
+
+            </li>
+        </ul>
+    </div>
+</div>
