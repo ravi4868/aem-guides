@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Content-Package-Roots: /conf/cara/settings/wcm/policies,/conf/cara/set
+ tings/wcm/templates,/conf/cara/settings/wcm/template-types
+Content-Package-Type: content
+Content-Package-Id: my_packages:new package
+

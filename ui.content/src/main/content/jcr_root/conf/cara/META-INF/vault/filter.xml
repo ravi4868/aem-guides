@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/cara/settings/wcm/templates">
+        <include pattern=""/>
+    </filter>
+    <filter root="/conf/cara/settings/wcm/policies">
+        <include pattern=""/>
+    </filter>
+    <filter root="/conf/cara/settings/wcm/template-types"/>
+</workspaceFilter>
